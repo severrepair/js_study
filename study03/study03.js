@@ -74,6 +74,8 @@ function funcName(num1, num2){
     console.log(c);
 }());
 
+console.log("------문제6--------");
+
 // 문제 6) 문제 3의 소스코드를 함수를 사용하는 방식으로 수정하세요.
 //  1. 사용자 입력 부분을 함수로 생성, quiz6Input
 //  2. 3의 배수를 계산하는 부분을 함수로 생성, quiz6Cal
@@ -111,6 +113,8 @@ function quiz6Cal (num){
 let num = quiz6Input();
 quiz6Cal(num);
 
+console.log("------문제7--------");
+
 //  문제 7) 문제 4의 소스코드를 함수를 사용하는 방식으로 수정하세요.
 //  1. money, coffee, price 의 초기값을 설정하는 함수 생성, quiz7Setup
 //  2. 커피 판매 부분을 함수로 생성, quiz7CoffeeSale
@@ -145,17 +149,8 @@ while (true) {
 
 
 
-function quiz7Setup (a,b,c){
-    let a = money;
-    let b = coffee;
-    let c = price;
-}
 
-function quiz7CoffeeSale () {
-
-}
-
-
+console.log("------문제8--------");
 
 //  문제 8) 문제 5의 소스코드를 함수를 사용하는 방식으로 수정하세요.
 //  1. 입금 부분을 함수로 생성, quiz8InputMoney
